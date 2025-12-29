@@ -17,6 +17,10 @@ Access modifiers are used as follows private is used for encapsulation of class 
 
 C.Instructions to Compile and Run Open Intellij, add this project and go to the main class, then click the run button.
 
+
+
+
+
 D.Program Output ![output](https://github.com/user-attachments/assets/20a4ea29-1b83-49b4-bd07-a91169f6a5bf)
 Project Structure  ![structure](https://github.com/user-attachments/assets/1d80fab6-95b3-48b0-b4d0-0c44170bd0e0)
 UML diagram  ![UML diagram](https://github.com/user-attachments/assets/05ee7abf-bfa2-491b-a3eb-cc1a36871b6e)
