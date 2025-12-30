@@ -25,8 +25,9 @@ C.Instructions to Compile and Run Open Intellij, add this project and go to the 
 ---Project Structure  ![structure](https://github.com/user-attachments/assets/1d80fab6-95b3-48b0-b4d0-0c44170bd0e0)
 ---UML diagram  ![UML diagram](https://github.com/user-attachments/assets/05ee7abf-bfa2-491b-a3eb-cc1a36871b6e)
 
-E.Inheritance simplified the design by placing common fields and behavior in the abstract Vehicle class, reducing code duplication and making the structure easier to maintain. Subclasses reused this shared logic and focused only on their specific features, which made the system easier to extend, as shown with the ElectricCar class.
-Method overriding allowed each vehicle type to define its own engine behavior while keeping a common interface. Using protected and default access modifiers required careful planning to balance encapsulation and accessibility, especially when allowing subclasses to access shared data without exposing it unnecessarily to other classes.
+E.Inheritance made the project easier because all vehicles share the same base class Vehicle. Common fields and methods were written once, so I did not repeat the same code in every class. When I added new vehicles like ElectricCar, I could reuse existing code and only add what was different.
+Method overriding helped each vehicle act in its own way, for example starting and stopping the engine differently. Using protected and default access modifiers was a bit challenging because I had to understand what subclasses can access and what should stay hidden. It helped me learn how to protect data while still allowing inheritance to work correctly.
+
 
 
 
