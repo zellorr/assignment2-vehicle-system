@@ -21,7 +21,8 @@ C.Instructions to Compile and Run Open Intellij, add this project and go to the 
 -
 -
 -
----D.Program Output ![output](https://github.com/user-attachments/assets/4e46a0e9-b1cc-4963-bbd7-e3cd643a7c5c)
+---D.Program Output ![output](https://github.com/user-attachments/assets/95b7a357-a29b-463a-98d8-e38a5ea6f92e)
+
 
 ---Project Structure  ![structure](https://github.com/user-attachments/assets/1d80fab6-95b3-48b0-b4d0-0c44170bd0e0)
 ---UML diagram  ![UML diagram](https://github.com/user-attachments/assets/05ee7abf-bfa2-491b-a3eb-cc1a36871b6e)
