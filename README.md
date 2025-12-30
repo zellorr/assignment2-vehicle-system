@@ -6,14 +6,14 @@ Composition and aggregation are shown by associating a `Driver` with vehicles, a
 
 
 B.
-Vehicle is an abstract superclass that defines common fields brand year and driver and declares the abstract methods startEngine and stopEngine
+Vehicle is an abstract superclass that defines common fields such as brand year and driver and declares the abstract methods startEngine and stopEngine
 
-Car Motorcycle and Truck extend Vehicle and provide their own implementations of engine behavior
-ElectricCar extends Car demonstrating multi level inheritance
+Car Motorcycle and Truck extend Vehicle and implement their own engine behavior
+ElectricCar extends Car which demonstrates multi level inheritance
 
-All subclasses override startEngine and stopEngine to define vehicle specific behavior and support polymorphism
+All subclasses override startEngine and stopEngine to provide vehicle specific behavior and enable polymorphism
 
-Access modifiers are used as follows private is used for encapsulation of class specific fields protected is used in Vehicle to allow subclass access and public is used for constructors and methods accessed from Main
+Access modifiers are used to control visibility private is used to encapsulate class specific fields protected is used in Vehicle to allow access in subclasses and public is used for constructors and methods that are called from Main
 
 C.Instructions to Compile and Run Open Intellij, add this project and go to the main class, then click the run button.
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
